@@ -10,6 +10,7 @@ function App() {
     <Router>
       <div>
         <Nav />
+        <Books />
         <Switch>
           <Route exact path = '/' compoment = {Books}/>
           <Route exact path = '/books' compoment = {Books}/>
